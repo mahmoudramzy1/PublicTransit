@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    direction: rtl; /* Right-to-left text direction */
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px; /* Use margin-right instead of margin-left */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#hero .hero-content {
+    max-width: 600px;
+}
+
+#hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about {
+    background-color: #f9f9f9;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    width: 30%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
